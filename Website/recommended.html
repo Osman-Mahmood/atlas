@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/139e37df72.js" crossorigin="anonymous"></script>
+    <title>Recommended Page</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="shop.html">Shopp</a></li>
+                <li><a class="active" href="recommended.html">Recommended</a></li>
+                <li><a href="delivery.html">Delivery</a></li>
+                <li><a href="coffee_shop.html">coffee Shop</a></li>
+                <li><a href="food_street.html">Food Streat</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="catering.html">Catering</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+        <div class="login_btns">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign Up</button>
+            <!-- Button trigger modal -->
+  
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title text-center" id="exampleModalLabel">SIGN UP</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Full Name *">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email Address *">
+                        </div>
+                        <div class="mb-3">
+                            <input type="number" class="form-control" placeholder="phone *">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Address *">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" placeholder="Password *">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" placeholder="Confirm Password *">
+                        </div>
+                        <div class="mb-3">
+                            <input type="number" class="form-control" placeholder="ID *">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I Agree to the terms</label>
+                        </div>
+                        <div class="mb-3 text-center">
+                            <input type="submit" class="btn_submit" value="GO">
+                        </div>
+                        <div class="mb-3 logo_name">
+                            <h5>ALTAS SYSTEM</h5>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1">Sign In</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">SIGN IN</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email Address *">
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" placeholder="Password *">
+                        </div>
+                        <div class="mb-3 text-center">
+                            <input type="submit" class="btn_submit" value="GO">
+                        </div>
+                        <div class="mb-3 logo_name">
+                            <h6>SIGN UP FOR FREE</h6>
+                        </div>
+                        <div class="mb-3 text-center">
+                            <input type="submit" style="width: 250px;" class="btn_submit" value="I DON'T HAVE AN ACCOUNT">
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="right_area">
+            <select>
+                <option value="">English</option>
+                <option value="">Hebrew</option>
+            </select>
+            <h3 class="Logo">ALTAS SYSTEM</h3>
+        </div>
+    </header>
+
+    <!-- Header Down Area  -->
+
+    <div class="header_bottom_area">
+        <div class="first">
+            <div class="location">
+                <input class="form-check-input" type="checkbox">
+                <label class="h6"> My Location</label>
+            </div>
+            <div class="choose_city">
+                Choose City
+            </div>
+        </div>
+        <div class="search">
+            <i class="fas fa-bars">
+                <div class="dropdown_menu p-3">
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="h6"> Menu Item</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </i>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search any thing here" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                <span class="input-group-text"><button>Search</button></span>
+            </div>
+        </div>
+        <div class="last">
+            <div class="pick_shop">
+                <button>Pick Up</button>
+                <button class="active">Ship</button>
+            </div>
+            <div class="message"><h5>Hello Yos</h5></div>
+        </div>
+    </div>
+
+    <div class="main_body" id="main_body">
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="card_style card_style_5">
+                    <div class="inner_portion">
+                        <div class="first_part">
+                            <h5>Name</h5>
+                            <i class="fas fa-clipboard-list">
+                                <div class="prodcut_menu">
+                                    <h4>MENU</h4>
+                                    <div class="content">
+                                        <h6>Name ...................................................................... Price</h6>
+                                        <h6>Description</h6>
+                                    </div>
+                                    <div class="content">
+                                        <h6>Name ...................................................................... Price</h6>
+                                        <h6>Description</h6>
+                                    </div>
+                                </div>
+                            </i>
+                        </div>
+                        <div class="flex_row">
+                            <h6>Address</h6>
+                            <h6>Phone</h6>
+                            <h6>Hours</h6>
+                            <h6>Menu</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card_style card_style_1">
+                    <div class="inner_portion">
+                        <div class="first_part">
+                            <h5>Name</h5>
+                            <i class="fas fa-clipboard-list">
+                                <div class="prodcut_menu">
+                                    <h4>MENU</h4>
+                                    <div class="content">
+                                        <h6>Name ...................................................................... Price</h6>
+                                        <h6>Description</h6>
+                                    </div>
+                                    <div class="content">
+                                        <h6>Name ...................................................................... Price</h6>
+                                        <h6>Description</h6>
+                                    </div>
+                                </div>
+                            </i>
+                        </div>
+                        <div class="flex_row">
+                            <h6>Address</h6>
+                            <h6>Phone</h6>
+                            <h6>Hours</h6>
+                            <h6>Menu</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card_style card_style_4">
+                    <div class="inner_portion">
+                        <div class="first_part">
+                            <h5>Name</h5>
+                            <i class="fas fa-clipboard-list">
+                                <div class="prodcut_menu">
+                                    <h4>MENU</h4>
+                                    <div class="content">
+                                        <h6>Name ...................................................................... Price</h6>
+                                        <h6>Description</h6>
+                                    </div>
+                                    <div class="content">
+                                        <h6>Name ...................................................................... Price</h6>
+                                        <h6>Description</h6>
+                                    </div>
+                                </div>
+                            </i>
+                        </div>
+                        <div class="flex_row">
+                            <h6>Address</h6>
+                            <h6>Phone</h6>
+                            <h6>Hours</h6>
+                            <h6>Menu</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="card_style card_style_8">
+                    <div class="inner_portion">
+                        <div class="first_part">
+                            <h5>Name</h5>
+                            <i class="fas fa-clipboard-list">
+                                <div class="prodcut_menu">
+                                    <h4>MENU</h4>
+                                    <div class="content">
+                                        <h6>Name ...................................................................... Price</h6>
+                                        <h6>Description</h6>
+                                    </div>
+                                    <div class="content">
+                                        <h6>Name ...................................................................... Price</h6>
+                                        <h6>Description</h6>
+                                    </div>
+                                </div>
+                            </i>
+                        </div>
+                        <div class="flex_row">
+                            <h6>Address</h6>
+                            <h6>Phone</h6>
+                            <h6>Hours</h6>
+                            <h6>Menu</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="card_style card_style_9">
+                    <div class="inner_portion">
+                        <div class="first_part">
+                            <h5>Name</h5>
+                            <i class="fas fa-clipboard-list">
+                                <div class="prodcut_menu">
+                                    <h4>MENU</h4>
+                                    <div class="content">
+                                        <h6>Name ...................................................................... Price</h6>
+                                        <h6>Description</h6>
+                                    </div>
+                                    <div class="content">
+                                        <h6>Name ...................................................................... Price</h6>
+                                        <h6>Description</h6>
+                                    </div>
+                                </div>
+                            </i>
+                        </div>
+                        <div class="flex_row">
+                            <h6>Address</h6>
+                            <h6>Phone</h6>
+                            <h6>Hours</h6>
+                            <h6>Menu</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card_style card_style_6">
+                    <div class="inner_portion">
+                        <div class="first_part">
+                            <h5>Name</h5>
+                            <i class="fas fa-clipboard-list">
+                                <div class="prodcut_menu">
+                                    <h4>MENU</h4>
+                                    <div class="content">
+                                        <h6>Name ...................................................................... Price</h6>
+                                        <h6>Description</h6>
+                                    </div>
+                                    <div class="content">
+                                        <h6>Name ...................................................................... Price</h6>
+                                        <h6>Description</h6>
+                                    </div>
+                                </div>
+                            </i>
+                        </div>
+                        <div class="flex_row">
+                            <h6>Address</h6>
+                            <h6>Phone</h6>
+                            <h6>Hours</h6>
+                            <h6>Menu</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card_style card_style_7">
+                    <div class="inner_portion">
+                        <div class="first_part">
+                            <h5>Name</h5>
+                            <i class="fas fa-clipboard-list">
+                                <div class="prodcut_menu">
+                                    <h4>MENU</h4>
+                                    <div class="content">
+                                        <h6>Name ...................................................................... Price</h6>
+                                        <h6>Description</h6>
+                                    </div>
+                                    <div class="content">
+                                        <h6>Name ...................................................................... Price</h6>
+                                        <h6>Description</h6>
+                                    </div>
+                                </div>
+                            </i>
+                        </div>
+                        <div class="flex_row">
+                            <h6>Address</h6>
+                            <h6>Phone</h6>
+                            <h6>Hours</h6>
+                            <h6>Menu</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card_style card_style_1">
+                    <div class="inner_portion">
+                        <div class="first_part">
+                            <h5>Name</h5>
+                            <i class="fas fa-clipboard-list">
+                                <div class="prodcut_menu">
+                                    <h4>MENU</h4>
+                                    <div class="content">
+                                        <h6>Name ...................................................................... Price</h6>
+                                        <h6>Description</h6>
+                                    </div>
+                                    <div class="content">
+                                        <h6>Name ...................................................................... Price</h6>
+                                        <h6>Description</h6>
+                                    </div>
+                                </div>
+                            </i>
+                        </div>
+                        <div class="flex_row">
+                            <h6>Address</h6>
+                            <h6>Phone</h6>
+                            <h6>Hours</h6>
+                            <h6>Menu</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar_cart" id="sidebar_cart">
+        <h2 class="Logo">ALTAS <span>SYSTEM</span></h2>
+        <h1 class="order">My Order</h1>
+
+        <div class="icon">
+            <img src="Images/icon6.jpeg" alt="">
+        </div>
+
+        <h1 class="empty_order">Your Order is <br> Empty</h1>
+
+        <div class="total">
+            <h4>Total:</h4>
+            <h4>00.00</h4>
+        </div>
+        <div class="order_btn" id="order_btn">My Order</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
